@@ -748,7 +748,7 @@ def AlignToBarycenter(signal, indexes, fs, research_time = 0.002):
         minimum_idx = i+k
         maximum_idx = i+k
         if (i + research_samples) <= sample_number:
-            while (k<research_campioni):   
+            while (k<research_samples):   
                 #finding minimum in the window
                 if signal[i+k] < signal[minimum_idx]:
                     minimum_idx = i+k
